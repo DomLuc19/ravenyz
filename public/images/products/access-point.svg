@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Access Point board">
+  <rect x="52" y="22" width="8" height="70" rx="4" fill="#17202b"/>
+  <rect x="180" y="22" width="8" height="70" rx="4" fill="#17202b"/>
+  <rect x="30" y="88" width="180" height="120" rx="10" fill="#2e3a8c"/>
+  <g stroke="#6f7fd9" stroke-width="2" fill="none" opacity=".7"><path d="M110 150 H70 V112"/><path d="M150 150 H178 V112"/><path d="M130 170 V190"/></g>
+  <rect x="96" y="120" width="56" height="50" rx="3" fill="#c9ced8"/>
+  <rect x="104" y="128" width="40" height="34" rx="2" fill="#9aa2b1"/>
+  <rect x="42" y="168" width="40" height="30" rx="2" fill="#e6eaf0"/>
+  <rect x="48" y="174" width="28" height="16" rx="1" fill="#17202b"/>
+  <circle cx="176" cy="184" r="9" fill="#17202b"/><circle cx="176" cy="184" r="4" fill="#f2c230"/>
+  <rect x="52" y="96" width="8" height="10" fill="#f2c230"/><rect x="180" y="96" width="8" height="10" fill="#f2c230"/>
+</svg>

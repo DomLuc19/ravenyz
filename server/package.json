@@ -1,0 +1,15 @@
+{
+  "name": "ravenyz-shop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ravenyz online shop API (Stripe Checkout + order mail)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "nodemailer": "^6.9.15",
+    "stripe": "^16.12.0"
+  }
+}

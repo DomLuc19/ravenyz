@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Lamp Relay board">
+  <rect x="20" y="40" width="200" height="160" rx="10" fill="#2e3a8c"/>
+  <rect x="20" y="40" width="200" height="160" rx="10" fill="none" stroke="#1d2660" stroke-width="3"/>
+  <g stroke="#6f7fd9" stroke-width="2" fill="none" opacity=".7">
+    <path d="M80 90 H120 V140 H150"/><path d="M80 110 H105 V170 H150"/><path d="M60 150 H95"/>
+  </g>
+  <rect x="38" y="62" width="44" height="56" rx="3" fill="#c9ced8"/>
+  <rect x="44" y="70" width="32" height="30" rx="2" fill="#9aa2b1"/>
+  <rect x="140" y="58" width="60" height="44" rx="4" fill="#17202b"/>
+  <rect x="140" y="110" width="60" height="44" rx="4" fill="#17202b"/>
+  <text x="170" y="85" font-family="Arial" font-size="10" fill="#c9ced8" text-anchor="middle">RELAY</text>
+  <text x="170" y="137" font-family="Arial" font-size="10" fill="#c9ced8" text-anchor="middle">RELAY</text>
+  <g fill="#f2c230"><rect x="152" y="166" width="12" height="20" rx="2"/><rect x="170" y="166" width="12" height="20" rx="2"/><rect x="188" y="166" width="12" height="20" rx="2"/></g>
+  <g fill="#e6eaf0"><rect x="40" y="140" width="14" height="10" rx="1"/><rect x="40" y="158" width="14" height="10" rx="1"/><rect x="62" y="140" width="14" height="10" rx="1"/><rect x="62" y="158" width="14" height="10" rx="1"/></g>
+  <circle cx="34" cy="54" r="4" fill="#e6eaf0"/><circle cx="206" cy="54" r="4" fill="#e6eaf0"/><circle cx="34" cy="186" r="4" fill="#e6eaf0"/><circle cx="206" cy="186" r="4" fill="#e6eaf0"/>
+</svg>

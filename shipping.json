@@ -1,0 +1,25 @@
+{
+  "currency": "chf",
+  "regions": [
+    {
+      "id": "ch",
+      "label": "Switzerland & Liechtenstein",
+      "carrier": "Swiss Post (PostPac Priority)",
+      "countries": ["CH", "LI"],
+      "amount": 9.00,
+      "freeFrom": 150.00,
+      "minDays": 1,
+      "maxDays": 3
+    },
+    {
+      "id": "intl",
+      "label": "Europe, UK & USA",
+      "carrier": "DHL Express",
+      "countries": ["DE", "AT", "FR", "IT", "NL", "BE", "LU", "DK", "SE", "FI", "NO", "ES", "PT", "PL", "CZ", "IE", "GB", "US"],
+      "amount": 39.00,
+      "freeFrom": null,
+      "minDays": 2,
+      "maxDays": 6
+    }
+  ]
+}

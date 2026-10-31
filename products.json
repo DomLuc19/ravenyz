@@ -1,0 +1,38 @@
+[
+  {
+    "id": "lamp-relay",
+    "sku": "RVZ-LR1",
+    "name": "Lamp Relay",
+    "tagline": "Wi-Fi control for existing lamp circuits, wall pushbuttons keep working.",
+    "description": "An ESP32-based relay module that switches household lamp circuits over Wi-Fi. Your existing wall pushbuttons stay in use: their inputs are optocoupler-isolated, so the board reads them safely. Control it from the app, via MQTT or plain HTTP. Installation in fixed wiring must be carried out by a licensed electrician.",
+    "price": 79.00,
+    "image": "images/products/lamp-relay.svg",
+    "highlights": ["ESP32, 2.4 GHz Wi-Fi", "MQTT and HTTP", "Isolated pushbutton inputs"],
+    "specs": {
+      "Controller": "ESP32",
+      "Connectivity": "Wi-Fi 2.4 GHz",
+      "Protocols": "MQTT, HTTP",
+      "Inputs": "Optocoupler-isolated pushbutton inputs",
+      "Mains": "230 V AC"
+    },
+    "active": true
+  },
+  {
+    "id": "access-point",
+    "sku": "RVZ-AP1",
+    "name": "Access Point",
+    "tagline": "A compact Wi-Fi access point that plugs into any LAN socket.",
+    "description": "Extends your home network with a dedicated 2.4 GHz access point. Connect it to a LAN socket, plug in the power adapter, and it broadcasts your network wherever coverage is weak. External antennas for better range.",
+    "price": 59.00,
+    "image": "images/products/access-point.svg",
+    "highlights": ["MT7628 module", "2.4 GHz, external antennas", "LAN uplink"],
+    "specs": {
+      "Chipset": "MediaTek MT7628 (HLK-7628N)",
+      "Wi-Fi": "2.4 GHz",
+      "Antennas": "External",
+      "Uplink": "Ethernet (LAN)",
+      "Power": "External power adapter"
+    },
+    "active": true
+  }
+]

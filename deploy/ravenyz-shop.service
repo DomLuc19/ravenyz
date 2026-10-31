@@ -1,0 +1,23 @@
+# /etc/systemd/system/ravenyz-shop.service
+[Unit]
+Description=Ravenyz shop API (Stripe Checkout)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ravenyz
+Group=ravenyz
+WorkingDirectory=/var/www/ravenyz/server
+ExecStart=/usr/bin/node server.js
+Restart=on-failure
+RestartSec=5
+Environment=NODE_ENV=production
+NoNewPrivileges=true
+ProtectSystem=full
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/var/www/ravenyz/server/data
+
+[Install]
+WantedBy=multi-user.target
